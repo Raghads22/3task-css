@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Charis SIL", serif;
+}
+
+.Products{
+    margin: 50px 30px 1000px 70px;
+}
+
+.Product{
+    float: left;
+    width: 23%;
+    margin: 5px;
+    border: 1px solid #00000042;
+    padding-left: 10px;
+    border-radius: 5px; 
+}
+
+
+.current-price {
+    display: inline;
+    width: 10px;
+    color: green;
+    margin-right: 5px;
+}
+
+.original-price {
+    display: inline;
+    color: red;
+    text-decoration: line-through;
+    font-size: 15px;
+} 
+
+img{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+
+.addCart {
+    background-color: #1972d2;
+    border:  #1972d2 solid 1px;
+    padding: 8px;
+    width: 83%;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    border-bottom-left-radius: 5px;  
+}
+
+.addCart p{
+    display: inline;
+    color: white;
+}
+
+.addCart i {
+    margin-right: 5px;
+}
+
+
+.like{
+    background-color: white;
+    border:  #1972d2 solid 1px;
+    padding: 8px;
+    border-bottom-right-radius: 5px;  
+}
+
+
+.Product .Lorem{
+    color: #0000009c;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-right: 5px;
+}
+
+
+div h2 {
+    margin-left: 75px;
+    margin-bottom: -35px;
+    margin-top: 40px;
+}
+
+div h3{
+    font-weight: 800;
+}
+
+.clear{
+    clear: both;
+}
